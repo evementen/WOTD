@@ -1,4 +1,4 @@
-setwd("~/Documents/04-Code/WOTD/")
+setwd("~/Desktop")
 getwd()
 require(dplyr)
 
@@ -25,11 +25,6 @@ wordlist
 
 #view current list
 wordlist
-
-#export active word list
-setwd("~/Google Drive")
-currentWordlist = write.table(wordlist,"currentWordlist.txt")
-setwd("~/Documents/04-Code/WOTD/")
 
 #clear current list
 wordlist = NULL
