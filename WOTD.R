@@ -17,7 +17,7 @@ CurrentDate = Sys.Date()
 wordlist = cbind(V1, CurrentDate)
 wordlist
 
-#after first pass:
+#after first pass (work on this to make it integrated code)
 V1 = sample_n(EngWords,1, replace=FALSE)
 CurrentDate = Sys.Date()
 wordlist = rbind(wordlist, cbind(V1, CurrentDate))
@@ -30,4 +30,4 @@ wordlist
 wordlist = NULL
 
 #check that all are unique
-unique(wordlist)
+unique(wordlist) #work on this
